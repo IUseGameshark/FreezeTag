@@ -1,0 +1,15 @@
+name: FreezeTag
+author: v240
+version: 1.0
+api-version: 1.16
+main: me.v240.FreezeTag.Main
+commands:
+  freezetag:
+    aliases: [ startft ]
+    description: Start FreezeTag
+
+permissions:
+  FreezeTag.Resistance.Bypass:
+    default: false
+  FreezeTag.StartStop:
+    default: op
